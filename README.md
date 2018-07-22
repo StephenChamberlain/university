@@ -9,8 +9,19 @@ programs were created with Visual Studio 6.0.
 In order to compile and run on a more modern stack, the programs are updated to 
 use FreeGLUT (http://freeglut.sourceforge.net/) and Visual Studio Community 2017.
 
+Open the 'university.sln' solution file to browse the projects.
+
 ## Autoregression:
 
 ![autoregression](README/autoregression.jpg)
 
 Cloth texture generation via an autoregressive algorithm.
+
+## Bouncing Balls:
+
+![bouncing-balls](README/bouncing-balls.gif)
+
+Some basic physics and collision detection.
+
+NOTE: does not compile right now, due to usage of old external jpeglib; needs
+updating.
