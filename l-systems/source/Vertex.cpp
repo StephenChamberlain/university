@@ -1,0 +1,59 @@
+#include "../header/Vertex.h"
+
+///////////////////////////////////
+
+CVertex::CVertex()
+{
+
+}
+
+///////////////////////////////////
+
+CVertex::~CVertex()
+{
+
+}
+
+///////////////////////////////////
+
+void CVertex::set_x(float new_x)
+{
+	x = new_x;
+}
+
+///////////////////////////////////
+
+void CVertex::set_y(float new_y)
+{
+	y = new_y;
+}
+
+///////////////////////////////////
+
+void CVertex::set_z(float new_z)
+{
+	z = new_z;
+}
+
+///////////////////////////////////
+
+float CVertex::get_x(void)
+{
+	return x;
+}
+
+///////////////////////////////////
+
+float CVertex::get_y(void)
+{
+	return y;
+}
+
+///////////////////////////////////
+
+float CVertex::get_z(void)
+{
+	return z;
+}
+
+

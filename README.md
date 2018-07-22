@@ -25,3 +25,20 @@ Some basic physics and collision detection.
 
 NOTE: does not compile right now, due to usage of old external jpeglib; needs
 updating.
+
+## L-Systems:
+
+![l-systems006](README/l-systems/shot006.jpg)
+![l-systems007](README/l-systems/shot007.jpg)
+
+An L-system or Lindenmayer system is a parallel rewriting system and a type of
+formal grammar. L systems are applied mostly to organic systems (to describe 
+growth and cell patterns), but can also be used to generate fractals. This program
+is an exploration of the latter.
+
+Controls
++ W: zoom in.
++ S: zoom out.
++ F: fullscreen.
++ Q: quit.
++ Hold mouse button and drag: pan/tilt the camera.
