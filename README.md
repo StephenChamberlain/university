@@ -2,8 +2,8 @@
 For posterity; some assignments from my university days. Created between 
 2000-2003.
 
-All sources are C++ and most rely on the OpenGL Utility Toolkit (glut32.dll), a 
-window system independent toolkit for writing OpenGL programs. Originally, the
+All sources are C/C++ and most rely on the OpenGL Utility Toolkit (glut32.dll), 
+a window system independent toolkit for writing OpenGL programs. Originally, the
 programs were created with Visual Studio 6.0.
 
 In order to compile and run on a more modern stack, the programs are updated to 
@@ -25,6 +25,19 @@ Some basic physics and collision detection.
 
 NOTE: does not compile right now, due to usage of old external jpeglib; needs
 updating.
+
+## Diffusion Limited Aggregation Algorithm:
+
+![dlaa](README/dlaa.gif)
+
+Diffusion-limited aggregation (DLA) is the process whereby particles undergoing 
+a random walk due to Brownian motion cluster together to form aggregates of such 
+particles.
+
+Controls
++ 1: set colour to red.
++ 2: set colour to green.
++ 3: set colour to blue.
 
 ## L-Systems:
 
