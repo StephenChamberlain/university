@@ -9,7 +9,9 @@ programs were created with Visual Studio 6.0.
 In order to compile and run on a more modern stack, the programs are updated to 
 use FreeGLUT (http://freeglut.sourceforge.net/) and Visual Studio Community 2017.
 
-Open the 'university.sln' solution file to browse the projects.
+Open the 'university.sln' solution file to browse the projects. Rebuild the 
+solution to compile all projects. Binaries are created under the root build
+directory.
 
 ## Autoregression:
 
