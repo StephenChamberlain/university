@@ -1,5 +1,5 @@
-#include "open_gl.h"
-#include "texture_algorithm.h"
+#include "../header/open_gl.h"
+#include "../header/texture_algorithm.h"
 
 #include <gl\glut.h>
 #include <time.h>

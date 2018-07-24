@@ -2,7 +2,7 @@
 //
 //////////////////////////////////////////////////////////////////////
 
-#include "open_gl.h"
+#include "../header/open_gl.h"
 #include <gl\glut.h>
 
 #define XPIXELS	512

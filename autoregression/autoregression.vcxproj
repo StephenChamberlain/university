@@ -115,18 +115,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\memory.cpp" />
-    <ClCompile Include="src\open_gl.cpp" />
-    <ClCompile Include="src\proc_textures.cpp" />
-    <ClCompile Include="src\texture_algorithm.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="src\memory.h" />
-    <ClInclude Include="src\open_gl.h" />
-    <ClInclude Include="src\texture_algorithm.h" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\memory.cpp" />
+    <ClCompile Include="source\open_gl.cpp" />
+    <ClCompile Include="source\proc_textures.cpp" />
+    <ClCompile Include="source\texture_algorithm.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header\memory.h" />
+    <ClInclude Include="header\open_gl.h" />
+    <ClInclude Include="header\texture_algorithm.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
