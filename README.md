@@ -19,6 +19,12 @@ directory.
 
 Cloth texture generation via an autoregressive algorithm.
 
+## Bezier Spline:
+
+![bezier-spline](README/bezier.gif)
+
+Simple Bezier spline implementation in 3D.
+
 ## Bouncing Balls:
 
 ![bouncing-balls](README/bouncing-balls.gif)
